@@ -16,34 +16,64 @@ router.post("/calculatecost", (req, res) => {
 
   if (req.body != null) {
     switch (req.body.startLocation) {
-      case "CA":
+      case "Kandy":
         initailvalue = 1;
         break;
-      case "US":
+      case "Mavanalla":
         initailvalue = 2;
         break;
-      case "DE":
+      case "Kagalla":
         initailvalue = 3;
         break;
-      case "FR":
+      case "Warakapola":
         initailvalue = 4;
+        break;
+      case "Nittabuva":
+        initailvalue = 5;
+        break;
+      case "Yakkala":
+        initailvalue = 6;
+        break;
+      case "Kiribathgoda":
+        initailvalue = 7;
+        break;
+      case "Boralla":
+        initailvalue = 8;
+        break;
+      case "Narahenpita":
+        initailvalue = 9;
         break;
     }
 
     switch (
       req.body.endLocation // Use req.body.endLocation instead of req.params.endLocation
     ) {
-      case "CA":
+      case "Kandy":
         finalvalue = 1;
         break;
-      case "US":
+      case "Mavanalla":
         finalvalue = 2;
         break;
-      case "DE":
+      case "Kagalla":
         finalvalue = 3;
         break;
-      case "FR":
+      case "Warakapola":
         finalvalue = 4;
+        break;
+      case "Nittabuva":
+        finalvalue = 5;
+        break;
+      case "Yakkala":
+        finalvalue = 6;
+        break;
+      case "Kiribathgoda":
+        finalvalue = 7;
+        break;
+      case "Boralla":
+        finalvalue = 8;
+        break;
+      case "Narahenpita":
+        finalvalue = 9;
         break;
     }
 

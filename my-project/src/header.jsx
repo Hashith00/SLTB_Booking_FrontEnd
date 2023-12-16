@@ -16,18 +16,17 @@ export const Header = () => {
                 </p>
               </div>
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                The quickest
+                Book your
                 <br className="hidden md:block" />
-                way to{" "}
+                Season Ticket{" "}
                 <span className="inline-block text-deep-purple-accent-400">
-                  book your season ticket
+                  in no time
                 </span>
               </h2>
               <p className="text-base text-gray-700 md:text-lg">
-                Now our systems can integrate with various payment gateways,
-                offering passengers a choice of payment options such as
-                credit/debit cards or digital wallets, making transactions more
-                convenient.
+                We offer Online bus ticket booking services, reservations
+                through our 24 X 7 hotline 1315, bus tracking facilities and
+                fleet management services
               </p>
             </div>
             <div className="flex flex-col items-center md:flex-row">
@@ -52,8 +51,8 @@ export const Header = () => {
         </div>
         <div className="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
           <img
-            className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
-            src="https://images.pexels.com/photos/3519102/pexels-photo-3519102.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=950&amp;w=1260"
+            className="object-cover w-full h-56 rounded-xl shadow-lg lg:rounded-lg lg:shadow-none sm:h-96 lg:h-full"
+            src="https://island.lk/wp-content/uploads/2022/02/ctb.jpg"
             alt=""
           />
         </div>

@@ -60,10 +60,15 @@ function Booking() {
                         onChange={(e) => setStartLocation(e.target.value)}
                       >
                         <option selected>Choose a location</option>
-                        <option value="US">United States</option>
-                        <option value="CA">Canada</option>
-                        <option value="FR">France</option>
-                        <option value="DE">Germany</option>
+                        <option value="Kandy">Kandy</option>
+                        <option value="Mavanalla">Mavanalla</option>
+                        <option value="Kagalla">Kagalla</option>
+                        <option value="Warakapola">Warakapola</option>
+                        <option value="Nittabuva">Nittabuva</option>
+                        <option value="Yakkala">Yakkala</option>
+                        <option value="Kiribathgoda">Kiribathgoda</option>
+                        <option value="Boralla">Boralla</option>
+                        <option value="Narahenpita">Narahenpita</option>
                       </select>
                     </div>
                     <div className="mb-1 sm:mb-2">
@@ -76,10 +81,15 @@ function Booking() {
                         onChange={(e) => setEndLocation(e.target.value)}
                       >
                         <option selected>Choose a location</option>
-                        <option value="US">United States</option>
-                        <option value="CA">Canada</option>
-                        <option value="FR">France</option>
-                        <option value="DE">Germany</option>
+                        <option value="Kandy">Kandy</option>
+                        <option value="Mavanalla">Mavanalla</option>
+                        <option value="Kagalla">Kagalla</option>
+                        <option value="Warakapola">Warakapola</option>
+                        <option value="Nittabuva">Nittabuva</option>
+                        <option value="Yakkala">Yakkala</option>
+                        <option value="Kiribathgoda">Kiribathgoda</option>
+                        <option value="Boralla">Boralla</option>
+                        <option value="Narahenpita">Narahenpita</option>
                       </select>
                     </div>
 

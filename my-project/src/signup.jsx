@@ -48,18 +48,17 @@ function Signup() {
             <div className="flex flex-col items-center justify-between xl:flex-row">
               <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl sm:leading-none">
-                  The quickest
+                  Book your
                   <br className="hidden md:block" />
-                  way to{" "}
+                  Season Ticket{" "}
                   <span className="inline-block text-deep-purple-accent-400">
-                    book your season ticket
+                    in no time
                   </span>
                 </h2>
                 <p className="max-w-xl mb-4 text-base text-gray-400 md:text-lg">
-                  Now our systems can integrate with various payment gateways,
-                  offering passengers a choice of payment options such as
-                  credit/debit cards or digital wallets, making transactions
-                  more convenient.
+                  We offer Online bus ticket booking services, reservations
+                  through our 24 X 7 hotline 1315, bus tracking facilities and
+                  fleet management services.
                 </p>
               </div>
               <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
