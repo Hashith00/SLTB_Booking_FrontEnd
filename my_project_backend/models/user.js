@@ -11,6 +11,7 @@ const userSchema = mongoose.Schema({
     type: String,
     required: true,
     minlength: 5,
+    unique: true,
   },
   password: {
     type: String,
@@ -21,6 +22,8 @@ const userSchema = mongoose.Schema({
   },
   startLocation: String,
   endLocation: String,
+  startingDate: String,
+  endingDate: String,
 });
 
 const user = mongoose.model("User", userSchema);

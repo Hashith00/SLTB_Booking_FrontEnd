@@ -18,19 +18,15 @@ function Signup() {
         location,
         password,
       });
-      if (response.status == 201) {
-        console.log("User Created successfully");
-        setStatus({ type: "success" });
+      if (response.data.massage == "User Regitered Successfully") {
+        setStatus({ type: "success", massage: `${response.data.massage}` });
       } else {
-        // const data = await response.json();
-        // console.error("Error create user:", data.message);
-        // setEndmassage(data.message);
         console.log(response.data.massage);
-        setStatus({ type: "error", error });
+        setStatus({ type: "error", massage: `${response.data.massage}` });
       }
     } catch (error) {
       console.error("Network error:", error);
-      setStatus({ type: "error", error });
+      setStatus({ type: "error", massage: `${response.data.massage}` });
     }
   };
 
@@ -168,7 +164,7 @@ function Signup() {
                         <span class="sr-only">Info</span>
                         <div>
                           <span class="font-medium">
-                            Registration Sucessfull!
+                            Registration Sucessfull!{" "}
                           </span>
                           <a
                             className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
@@ -196,7 +192,7 @@ function Signup() {
                         <span class="sr-only">Info</span>
                         <div>
                           <span class="font-medium">Log in Faild!</span>{" "}
-                          Incorrect Credentials
+                          {status?.massage}
                         </div>
                       </div>
                     )}

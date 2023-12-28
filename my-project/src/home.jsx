@@ -86,7 +86,7 @@ export const Home = () => {
                       </h5>
                       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                         This ticket is issued by the SLTB for seasonla
-                        transpotation. This is vaild till 2024-01-02
+                        transpotation. This is vaild till {user.endingDate}
                       </p>
                     </div>
                   </a>

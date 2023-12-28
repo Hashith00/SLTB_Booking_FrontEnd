@@ -101,4 +101,24 @@ router.put("/addlocation/:id", async (req, res) => {
   res.send(user);
 });
 
+// Uses to record the data and time of the ticked is issued
+// need to add new feilds to shema
+router.put("/date/:id", async (req, res) => {
+  const user = await User.findByIdAndUpdate(
+    req.params.id,
+    {
+      startingDate: req.body.startingDate,
+      endingDate: req.body.endingDate,
+    },
+    { new: true }
+  );
+
+  if (!user) {
+    res.status(404).send("Given id was not found");
+    return;
+  }
+
+  res.send(user);
+});
+
 module.exports = router;

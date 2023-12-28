@@ -126,6 +126,26 @@ function Navbar() {
                   Home
                 </a>
               </li>
+              <li>
+                <a
+                  href="/"
+                  aria-label="Our product"
+                  title="Our product"
+                  className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                >
+                  Bus Details
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  aria-label="Our product"
+                  title="Our product"
+                  className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                >
+                  Contact Us
+                </a>
+              </li>
             </ul>
           </div>
           <ul className="flex items-center space-x-8 lg:flex">

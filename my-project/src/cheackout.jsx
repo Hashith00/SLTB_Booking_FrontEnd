@@ -14,6 +14,18 @@ function CheackOut() {
   const [startLocation, setStartLocation] = useState(location.state.start);
   const [endLocation, setEndLocation] = useState(location.state.end);
 
+  const handlePay = async (id) => {
+    try {
+      const responce = await axios.post("http://localhost:4000/api/stripe", {
+        items: [{ id: id, quantity: 1 }],
+      });
+      console.log(responce.data.url);
+      window.location.href = `${responce.data.url}`;
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   useEffect(() => {
     const calculateCosts = async () => {
       try {
@@ -32,10 +44,10 @@ function CheackOut() {
       }
     };
     calculateCosts();
-    handleClick();
+    getData();
   }, []);
 
-  const handleClick = async () => {
+  const getData = async () => {
     try {
       const response = await fetch(
         `http://localhost:4000/api/users/addlocation/${user1.userId}`,
@@ -151,15 +163,12 @@ function CheackOut() {
               </h2>
             </div>
             <div>
-              <a
-                href=""
+              <button
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
-                onClick={() => {
-                  navigate(`/home`);
-                }}
+                onClick={() => handlePay(price / 100)}
               >
                 Pay Now
-              </a>
+              </button>
             </div>
           </div>
         </div>

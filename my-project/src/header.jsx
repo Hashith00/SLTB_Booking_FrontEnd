@@ -1,3 +1,4 @@
+import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import { useNavigate } from "react-router-dom";
 
@@ -57,6 +58,7 @@ export const Header = () => {
           />
         </div>
       </div>
+      <Footer />
     </>
   );
 };
