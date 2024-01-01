@@ -128,7 +128,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="https://www.sltb.lk/index.html"
                   aria-label="Our product"
                   title="Our product"
                   className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -138,12 +138,12 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/aboutus"
                   aria-label="Our product"
                   title="Our product"
                   className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
-                  Contact Us
+                  About Us
                 </a>
               </li>
             </ul>

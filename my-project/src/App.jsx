@@ -13,6 +13,7 @@ import Home from "./home";
 import PassPage from "./pass";
 import FailPage from "./fail";
 import ContactUsPage from "./contactus";
+import Aboutus from "./aboutus";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/home" element={<Home />}></Route>
         <Route path="/cheackout" element={<CheackOut />}></Route>
         <Route path="/contact" element={<ContactUsPage />}></Route>
+        <Route path="/aboutus" element={<Aboutus />}></Route>
       </Routes>
     </>
   );

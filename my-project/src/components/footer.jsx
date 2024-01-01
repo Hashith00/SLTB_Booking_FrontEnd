@@ -12,78 +12,44 @@ function Footer() {
                 href="#"
                 aria-label="Brand"
               >
-                Brand
+                SLTB
               </a>
             </div>
 
             <div class="col-span-1">
-              <h4 class="font-semibold text-gray-100">Product</h4>
+              <h4 class="font-semibold text-gray-100">Address</h4>
 
               <div class="mt-3 grid space-y-3">
                 <p>
-                  <a
-                    class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                    href="#"
-                  >
-                    Pricing
+                  <a class="inline-flex gap-x-2 text-gray-400" href="#">
+                    Sri Lanka Transportation Board,
                   </a>
                 </p>
                 <p>
-                  <a
-                    class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                    href="#"
-                  >
-                    Changelog
+                  <a class="inline-flex gap-x-2 text-gray-400 " href="#">
+                    Head Office
                   </a>
                 </p>
                 <p>
-                  <a
-                    class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                    href="#"
-                  >
-                    Docs
+                  <a class="inline-flex gap-x-2 text-gray-400 " href="#">
+                    No: 200
+                  </a>
+                </p>
+                <p>
+                  <a class="inline-flex gap-x-2 text-gray-400" href="#">
+                    Kirula Road, Colombo 5
                   </a>
                 </p>
               </div>
             </div>
 
             <div class="col-span-1">
-              <h4 class="font-semibold text-gray-100">Company</h4>
+              <h4 class="font-semibold text-gray-100">Hotline</h4>
 
               <div class="mt-3 grid space-y-3">
                 <p>
-                  <a
-                    class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                    href="#"
-                  >
-                    About us
-                  </a>
-                </p>
-                <p>
-                  <a
-                    class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                    href="#"
-                  >
-                    Blog
-                  </a>
-                </p>
-                <p>
-                  <a
-                    class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                    href="#"
-                  >
-                    Careers
-                  </a>{" "}
-                  <span class="inline ms-1 text-xs bg-blue-700 text-white py-1 px-2 rounded-lg">
-                    We're hiring
-                  </span>
-                </p>
-                <p>
-                  <a
-                    class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                    href="#"
-                  >
-                    Customers
+                  <a class="inline-flex gap-x-2 text-gray-400" href="#">
+                    +94 011 254 9683
                   </a>
                 </p>
               </div>
@@ -108,14 +74,11 @@ function Footer() {
                   </div>
                   <a
                     class="w-full sm:w-auto whitespace-nowrap p-3 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                    href="#"
+                    href="mailto:`{email}`?subject={subject}&body={body}"
                   >
                     Subscribe
                   </a>
                 </div>
-                <p class="mt-3 text-sm text-gray-400">
-                  New UI kits or big discounts. Never spam.
-                </p>
               </form>
             </div>
           </div>
@@ -123,7 +86,7 @@ function Footer() {
           <div class="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
             <div class="flex justify-between items-center">
               <p class="text-sm text-gray-400">
-                © 2022 Preline. All rights reserved.
+                © 2023 SLTB. All rights reserved.
               </p>
             </div>
 
