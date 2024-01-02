@@ -12,7 +12,9 @@ import CheackOut from "./cheackout";
 import Home from "./home";
 import PassPage from "./pass";
 import FailPage from "./fail";
+// Add this
 import ContactUsPage from "./contactus";
+
 import Aboutus from "./aboutus";
 
 function App() {
